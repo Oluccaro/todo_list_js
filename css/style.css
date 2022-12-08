@@ -1,0 +1,42 @@
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    background-color: rgb(11, 35, 54);
+}
+
+#app-container{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    width:600px;
+    height:600px;   
+}
+#app-lista{
+    height:40%;
+    color:aliceblue;
+    font-size: larger;
+}
+
+#recebe-item{
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+}
+
+#insere-item{
+    width:200px;
+    height: 40px;
+    font-size: 30px;
+    margin: auto;
+}
+#lista-items{
+    font-size: 20px;
+    margin:auto;
+}
+
+li{
+    font-size: 20px;
+    padding: 3px;
+}
